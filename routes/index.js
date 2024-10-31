@@ -17,7 +17,7 @@ router.get('/vanilla', function(req, res, next) {
 
   /* Страница чая с лаймом*/
 router.get('/spirit', function(req, res, next) {
-  res.render('tea', {
+  res.render('tea',{
     title: 'Чай с лаймом',
     picture: "/images/spirit.jpg",
     desc: "черный чай, кусочки сушеного лайма, натуральный ароматизатор лайма, лепестки гибискуса."
