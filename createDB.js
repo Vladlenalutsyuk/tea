@@ -1,11 +1,16 @@
 const { MongoClient } = require('mongodb');
 // or as an es module:
 // import { MongoClient } from 'mongodb'
+const { MongoClient } = require('mongodb');
+// or as an es module:
+// import { MongoClient } from 'mongodb'
+var data = require("./data.js").data;
+
 // Connection URL
 const url = 'mongodb://localhost:27017';
 const client = new MongoClient(url);
 // Database Name
-const dbName = 'tea';
+const dbName = 'tea2024';
 async function main() {
     // Use connect method to connect to the server
     await client.connect();
