@@ -5,7 +5,7 @@ var Tea = require('../models/tea').Tea;
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-    res.send('Новый маршрутизатор, для маршрутов, начинающихся с cats');
+    res.send('Новый маршрутизатор');
 });
 
 router.get("/:nick", async function (req, res, next) {
