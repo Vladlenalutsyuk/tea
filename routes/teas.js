@@ -1,15 +1,16 @@
 var express = require('express');
 var router = express.Router();
 var Tea = require('../models/tea').Tea;
+var checkAuth = require("../middlewares/checkAuth.js");
 
 
-/* GET users listing. */
+/* GET teas listing. */
 router.get('/', function (req, res, next) {
     res.send('Новый маршрутизатор');
 });
 
-router.get("/:nick", async function (req, res, next) {
-    var teas = await Tea.find({ nick: req.params.nick });
+router.get("/:nick", checkAuth, async function(req, res, next) {
+var teas = await Tea.find({ nick: req.params.nick });
     console.log(teas)
     if (!teas.length) return next(new Error("Нет такого чая"))
     var tea = teas[0];
