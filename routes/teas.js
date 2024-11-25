@@ -9,12 +9,14 @@ router.get('/', function (req, res, next) {
     res.send('Новый маршрутизатор');
 });
 
-router.get("/:nick", checkAuth, async function(req, res, next) {
+router.get("/:nick", checkAuth, async function(req, res, next) 
+{
 var teas = await Tea.find({ nick: req.params.nick });
     console.log(teas)
     if (!teas.length) return next(new Error("Нет такого чая"))
     var tea = teas[0];
-    res.render('tea', {
+    res.render('tea', 
+        {
         title: tea.title,
         picture: tea.avatar,
         desc: tea.desc

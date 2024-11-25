@@ -1,8 +1,8 @@
 var mongoose = require("mongoose")
-mongoose.connect("mongodb://localhost/tea2024")
+mongoose.connect("mongodb://localhost/Tea")
 var User = require("./models/user.js").User
 var first_user = new User({
-username: "Andrey",
+username: "Vasya",
 password: "qwerty"
 })
 first_user.save();
