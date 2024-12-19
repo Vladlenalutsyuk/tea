@@ -1,19 +1,19 @@
 var data = [{
     title: 'Чай с ванилью и клюквой',
-    nick: 'vanilla',
-    avatar: '/images/vanilla.jpg',
+    nick: 'peach',
+    avatar: '/images/peach.jpg',
     desc: 'черный чай, кусочки сушеной клюквы, натуральный ароматизатор ванили, лепестки розы.'
     },
     {
     title: 'Чай с лаймом',
     nick: 'spirit',
-    avatar: '/images/spirit.jpg',
+    avatar: '/images/sum.jpg',
     desc: 'черный чай, кусочки сушеного лайма, натуральный ароматизатор лайма, лепестки гибискуса.'
     },
     {
     title: 'Чай со сливой',
     nick: 'plum',
-    avatar: '/images/plum.webp',
+    avatar: '/images/wild.jpg',
     desc: 'черный чай, лепестки розы, кусочки сушеной сливы, натуральный ароматизатор, плоды шиповника.'
     },
     {
@@ -29,5 +29,11 @@ var data = [{
     desc: 'Черный чай, листья ежевики, натуральный ароматизатор черники, сушеные плоды черники, лепестки гибискуса.'
     }
     ];
+    
+    db.teas.updateOne(
+               { nick: "blu" },
+               { $set: { avatar: "/images/blu.jpg" } }
+            );
+    
     module.exports.data = data;
     

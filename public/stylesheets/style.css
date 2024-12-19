@@ -10,3 +10,20 @@ img {
   width: 500px;
   height: 150px;
 }
+
+.fancy-text {
+  text-align: center;
+  font-family: 'Georgia', serif; /* Красивый шрифт */
+  font-size: 3rem; /* Увеличенный размер */
+  color: #0d6b12; /* Яркий цвет */
+  margin-top: 30px; /* Отступ сверху */
+  letter-spacing: 2px; /* Расстояние между буквами */
+}
+.elegant-text {
+  text-align: center;
+    font-family: 'Georgia', serif; /* Декоративный шрифт */
+    font-size: 1rem; /* Большой размер */
+    color: #5d2a02;
+    letter-spacing: 3px; /* Расстояние между буквами */
+    margin-top: 20px;
+}
