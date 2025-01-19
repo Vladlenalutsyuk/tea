@@ -12,6 +12,7 @@ var teaSchema = new Schema(
         },
         avatar: String,
         desc: String,
+        de: String,
         created: 
         {
             type: Date,

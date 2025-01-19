@@ -31,9 +31,11 @@ var data = [{
     ];
     
     db.teas.updateOne(
-               { nick: "blu" },
-               { $set: { avatar: "/images/blu.jpg" } }
+               { nick: "vanilla" },
+               { $set: { avatar: "/images/vana.png" } }
             );
+
+    db.teas.updateOne( { nick: "vanilla" }, { $set: { avatar: "Богата витамином C, укрепляет иммунитет.Содержит антиоксиданты, замедляющие процессы старения.Улучшает работу мочевыводящей системы.Поддерживает здоровье сердца за счет снижения уровня холестерина." } } );
     
     module.exports.data = data;
     

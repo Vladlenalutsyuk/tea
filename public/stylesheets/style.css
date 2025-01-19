@@ -15,7 +15,7 @@ img {
   text-align: center;
   font-family: 'Georgia', serif; /* Красивый шрифт */
   font-size: 3rem; /* Увеличенный размер */
-  color: #e8f0e9; /* Яркий цвет */
+  color: #0d6b12; /* Яркий цвет */
   margin-top: 30px; /* Отступ сверху */
   letter-spacing: 2px; /* Расстояние между буквами */
 }
@@ -29,12 +29,43 @@ img {
 }
 
 
-bodys {
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  opacity: 1; /* Прозрачность фона (настройте по желанию) */
+.custom-image {
+  position: absolute; /* Указывает, что картинка может быть размещена в конкретном месте */
+  top: 200px; /* Расстояние от верхнего края страницы */
+  left: 530px; /* Расстояние от левого края страницы */
+  width: 400px; 
+  height: auto;
+}
+
+.custom {
+  position: absolute; /* Указывает, что картинка может быть размещена в конкретном месте */
+  top: 300px; /* Расстояние от верхнего края страницы */
+  left: 50px; /* Расстояние от левого края страницы */
+  width: 500px; 
+  font-family: 'Georgia', serif; /* Декоративный шрифт */
+    font-size: 1,5rem; /* Большой размер */
+    color: #5d2a02;
+    letter-spacing: 1px; /* Расстояние между буквами */
+    margin-top: 20px;
+  
+}
+
+
+.custom1 {
+  position: absolute; /* Указывает, что картинка может быть размещена в конкретном месте */
+  top: 300px; /* Расстояние от верхнего края страницы */
+  left: 1000px; /* Расстояние от левого края страницы */
+  width: 415px; 
+  font-family: 'Georgia', serif; /* Декоративный шрифт */
+    font-size: 1,5rem; /* Большой размер */
+    color: #5d2a02;
+    letter-spacing: 1px; /* Расстояние между буквами */
+    margin-top: 20px;
+  
+}
+
+.custom12 {
+  
+    color: #5d2a02;
+    
 }
