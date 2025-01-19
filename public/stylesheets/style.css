@@ -15,7 +15,7 @@ img {
   text-align: center;
   font-family: 'Georgia', serif; /* Красивый шрифт */
   font-size: 3rem; /* Увеличенный размер */
-  color: #0d6b12; /* Яркий цвет */
+  color: #e8f0e9; /* Яркий цвет */
   margin-top: 30px; /* Отступ сверху */
   letter-spacing: 2px; /* Расстояние между буквами */
 }
@@ -29,3 +29,12 @@ img {
 }
 
 
+bodys {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 1; /* Прозрачность фона (настройте по желанию) */
+}

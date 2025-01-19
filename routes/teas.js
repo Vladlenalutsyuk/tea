@@ -19,7 +19,8 @@ var teas = await Tea.find({ nick: req.params.nick });
         {
         title: tea.title,
         picture: tea.avatar,
-        desc: tea.desc
+        desc: tea.desc,
+        body: tea.body
     })
 });
 

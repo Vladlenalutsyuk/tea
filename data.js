@@ -25,7 +25,7 @@ var data = [{
     {
     title: 'Чай с черникой',
     nick: 'blueberry',
-    avatar: '/images/blueberry.webp',
+    avatar: '/images/grape.jpg',
     desc: 'Черный чай, листья ежевики, натуральный ароматизатор черники, сушеные плоды черники, лепестки гибискуса.'
     }
     ];
