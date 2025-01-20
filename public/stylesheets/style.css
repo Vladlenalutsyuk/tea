@@ -70,4 +70,8 @@ img {
     
 }
 
-
+.read { 
+  p {
+      color: #33cd3bf8;
+  }
+}
